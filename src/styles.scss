@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// mat-card {
+//   margin: 24px;
+//   text-align: center;
+// }
+
+.hdfisme-form {
+  min-width: 180px;
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 5px;
+}
+
+.div-tabla {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.padding-bottom-toolbar {
+  padding-top: 64px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .contenido-main {
+    padding-top: 56px;
+    overflow-y: auto;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .contenido-main {
+    padding-top: 64px;
+    overflow-y: auto;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contenido-main {
+    padding-top: 64px;
+    overflow-y: auto;
+    height: 100%;
+  }
+}
